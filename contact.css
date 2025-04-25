@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('https://images.unsplash.com/photo-1598514982571-f0b5c3b80b8a') no-repeat center center/cover;
+    color: #fff;
+    backdrop-filter: brightness(55%);
+  }
+
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+
+  .navbar-brand {
+    color: #ffd700 !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    color: #ffd700 !important;
+  }
+
+  .nav-link:hover {
+    color: white !important;
+  }
+
+  .contact-container {
+    padding: 100px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .contact-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ffd700;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #000;
+  }
+
+  .contact-sub {
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 60px;
+  }
+
+  .form-control, .form-control:focus {
+    background-color: #111;
+    border: 1px solid #ffd700;
+    color: white;
+  }
+
+  .btn-send {
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+  }
+
+  .btn-send:hover {
+    background-color: #e6c200;
+  }
+
+  .contact-info {
+    margin-top: 40px;
+    font-size: 1.1rem;
+  }
+
+  .contact-info i {
+    color: #ffd700;
+    margin-right: 10px;
+  }
+
+  .socials {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .socials a {
+    font-size: 1.5rem;
+    color: #ffd700;
+    margin: 0 15px;
+    transition: color 0.3s;
+  }
+
+  .socials a:hover {
+    color: white;
+  }
+
+  @media (max-width: 768px) {
+    .contact-info {
+      text-align: center;
+    }
+  }
